@@ -34,5 +34,15 @@ what we need --> 1. High Accuracy 2. High Recall 3. High Roc score
 
 
 
-# to change the branch from master to main
+# To change the branch from master to main
 git branch -M main
+
+# Enviornment Setting Info
+create a new enviornment
+''' conda create -p venv python==3.7 -y'''
+
+for activating conda enviornment
+''' conda activate venv/ '''
+
+for deactivating conda enviornment
+''' conda deactivate '''
