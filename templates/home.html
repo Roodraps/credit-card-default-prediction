@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .form-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+        }
+      
+        form {
+          display: flex;
+          flex-direction: column;
+          width: 500px;
+          margin: 30px 0;
+          border: 1px solid lightgray;
+          border-radius: 10px;
+          box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+          padding: 30px;
+        }
+      
+        form h4 {
+          text-align: center;
+          margin-bottom: 30px;
+        }
+      
+        form input[type="text"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+      
+        form button[type="submit"] {
+          width: 100%;
+          padding: 10px;
+          background-color: cornflowerblue;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      
+        form button[type="submit"]:hover {
+          background-color: steelblue;
+        }
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- <div class="login"> -->
+    <h1> <i>Credit Card Fault Prediction</i> </h1>
+    <img src="https://d187qskirji7ti.cloudfront.net/news/wp-content/uploads/2016/11/credit-card-lock-1.jpg" alt="Credit Card fraud Image" height="450"/>    
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/edc67d95168547.5e90d98c785b6.jpg" alt="Credit Card fraud Image" height="450" width="620"/> <br><br><br>
+    
+    <form action="{{url_for('predict')}}" method="post">
+        <h4><b><u>Please enter the required values ⬇</u></b></h4>
+        
+        <input type="text" name="LIMIT_BAL" placeholder="LIMIT_BAL" required="required"/><br>
+        <input type="text" name="PAY_0" placeholder="PAY_0" required="required"/><br>
+        <input type="text" name="PAY_2" placeholder="PAY_2" required="required"/><br>
+        <input type="text" name="PAY_3" placeholder="PAY_3" required="required"/><br>
+        <input type="text" name="PAY_4" placeholder="PAY_4" required="required"/><br>
+        <input type="text" name="PAY_5" placeholder="PAY_5" required="required"/><br>
+        <input type="text" name="PAY_6" placeholder="PAY_6" required="required"/><br>
+        <input type="text" name="BILL_AMT1" placeholder="BILL_AMT1" required="required"/><br>
+        <input type="text" name="BILL_AMT2" placeholder="BILL_AMT2" required="required"/><br>
+        <input type="text" name="BILL_AMT3" placeholder="BILL_AMT3" required="required"/><br>
+        <input type="text" name="BILL_AMT4" placeholder="BILL_AMT4" required="required"/><br>
+        <input type="text" name="BILL_AMT5" placeholder="BILL_AMT5" required="required"/><br>
+        <input type="text" name="BILL_AMT6" placeholder="BILL_AMT6" required="required"/><br>
+        <input type="text" name="PAY_AMT1" placeholder="PAY_AMT1" required="required"/><br>
+        <input type="text" name="PAY_AMT2" placeholder="PAY_AMT2" required="required"/><br>
+        <input type="text" name="PAY_AMT3" placeholder="PAY_AMT3" required="required"/><br>
+        <input type="text" name="PAY_AMT4" placeholder="PAY_AMT4" required="required"/><br>
+        <input type="text" name="PAY_AMT5" placeholder="PAY_AMT5" required="required"/><br>
+        <input type="text" name="PAY_AMT6" placeholder="PAY_AMT6" required="required"/><br><br>
+
+        <!--   <input type = "Submit" value = "Submit"> -->
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+    </form>
+    <br><br>
+ <!-- </div> -->
+
+ <!-- {{prediction_text}} -->
+    
+
+    
+</body>
+</html>
