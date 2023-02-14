@@ -27,11 +27,11 @@ of credit card clients in Taiwan from April 2005 to September 2005.
 
 # Short summary of Project Approach 
 
-  In the dataset there are 22.12 % fradulent and 77.88 % non fraudulent.
+  In the dataset, there are 22.12 % fradulent and 77.88 % non fraudulent.
   
-  For Reducing the skewness, used power Transformation.
+  For Reducing the skewness, There have been used power Transformation.
 
-  For Balancing the dataset, I have used Undersampling, Oversampling, SMOTE(Synthetic minority oversampling technique) in     different-different classification algorithms mentioned above.
+  For Balancing the dataset, It's been used Undersampling, Oversampling, SMOTE(Synthetic minority oversampling technique) in     different-different classification algorithms mentioned above.
 
   Tested every model with their calculation of Accuracy,Precision,Recall,F-1 score, Roc-Auc score, Sensitivity and Specificity.
 
