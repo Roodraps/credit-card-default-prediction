@@ -65,7 +65,7 @@ what we need --> 1. High Accuracy 2. High Recall 3. High Roc score
 
 
 # To change the branch from master to main
-git branch -M main
+''' git branch -M main '''
 
 # Enviornment Setting Info
 create a new enviornment
