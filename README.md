@@ -1,6 +1,8 @@
 # credit-card-default-prection
    
 
+![credit-card-fraud-detection_image](https://user-images.githubusercontent.com/113835698/218536166-a3340aac-b3b8-4df3-a1e1-3d02255621dc.jpg)
+
 
 # Contributors
   ROODRA PRATAP SINGH PARIHAR
@@ -60,6 +62,7 @@ what we need --> 1. High Accuracy 2. High Recall 3. High Roc score
 
 
 
+<<<<<<< HEAD
 # To change the branch from master to main
 git branch -M main
 
@@ -72,3 +75,7 @@ for activating conda enviornment
 
 for deactivating conda enviornment
 ''' conda deactivate '''
+=======
+# to change the branch from master to main
+git branch -M main
+>>>>>>> 99203a380dc4f0f9f0701dc1947c481d78ef4903
