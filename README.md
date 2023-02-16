@@ -32,7 +32,7 @@ of credit card clients in Taiwan from April 2005 to September 2005.
   
   For Reducing the skewness, There have been used power Transformation.
 
-  For Balancing the dataset, It's been used Undersampling, Oversampling, SMOTE(Synthetic minority oversampling technique) in     different-different classification algorithms mentioned above.
+  For Balancing the dataset, It's been used Undersampling, Oversampling, SMOTE(Synthetic minority oversampling technique) in PROJECT APPROACHdifferent-different classification algorithms mentioned above.
 
   Tested every model with their calculation of Accuracy,Precision,Recall,F-1 score, Roc-Auc score, Sensitivity and Specificity.
 
@@ -42,10 +42,10 @@ of credit card clients in Taiwan from April 2005 to September 2005.
 # Choosing the best model
 Over-sampling with XGBoost gave us best accuracy in the train and the test, with the better training and testing ROC score as well as pretty good sensitivity and specificity.
 
-# Cost Benefit Analysis
+# Cost Benefit AnalysiCOST 
 Even though XGBoost , Decision tree and Random forest taking much higher computational power in comparison to the logistic regression but we have to go with them.
 
-Because we are building the model for the financial case, Ammount scam can be huge. so to get rid of these types of huge losses we have to build the accurate and precise model even though model take good ammount of computational cost.
+Because we are building the model for the financial case, Amount scam can be huge. so to get rid of these types of huge losses we have to build the accurate and precise model even though model take good amount of computational cost.
 
 # Summary from the Business point of view
  We would need high precision for banks with lesser average transaction values because we only want to flag relevant transactions as fraudulent. We may add the human element to every transaction that is reported as fraudulent, calling the customer to confirm that the transaction actually took place. But it wiil be difficult, when accuracy is poor because the human component must be increased.

@@ -17,26 +17,32 @@ def home():
 
 @app.route("/predict_api",methods = ['POST'])  # this is for api testing
 def predict_api():
-    data = request.json['data']
-    new_data = (np.array(list(data.values()))).reshape((1,-1))
-    
-    prediction = xgbmodel.predict(new_data)
-    print("prediction", prediction)
-    
-    if prediction == 0:
-      return "non_fradulent"
-    elif prediction == 1:
-        return "fraudulent"
+    try:
+        data = request.json['data']
+        new_data = (np.array(list(data.values()))).reshape((1,-1))
+        
+        prediction = xgbmodel.predict(new_data)
+        print("prediction", prediction)
+        
+        if prediction == 0:
+            return "non_fradulent"
+        elif prediction == 1:
+            return "fraudulent"
+    except Exception as e:
+        return Response("Error occured!", e)
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    data = [float(x) for x in request.form.values()]
-    new_data = np.array(data).reshape(1,-1)
-    output = xgbmodel.predict(new_data)
-    if output == 0:
-      return " RELIEF! This person is non fraudulent"
-    elif output == 1:
-        return " DANGER! This person is fraudulent"
+    try:
+        data = [float(x) for x in request.form.values()]
+        new_data = np.array(data).reshape(1,-1)
+        output = xgbmodel.predict(new_data)
+        if output == 0:
+            return " RELIEF! This person is non fraudulent"
+        elif output == 1:
+            return " DANGER! This person is fraudulent"
+    except Exception as e:
+        return Response("Error Occured!", e)
     # return render_template("home.html",prediction_text="He is a {}".format(output))
     
 
