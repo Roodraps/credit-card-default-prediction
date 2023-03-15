@@ -1,6 +1,6 @@
 # credit-card-default-prediction
 
-# web link for real time prediction of customers
+# web link for real time prediction of fraud/non-fraud customers
  
  https://credit-card-defaulter-prediction-service.onrender.com
  
