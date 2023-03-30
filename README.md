@@ -9,6 +9,9 @@
 ![credit-card-fraud-detection_image](https://user-images.githubusercontent.com/113835698/218536166-a3340aac-b3b8-4df3-a1e1-3d02255621dc.jpg)
 
 
+# High level Design 
+https://docs.google.com/document/d/1gC_UJ2YchiQtsemO2ArzUTlBCiLhyfi9_lq7y5_ORDM/edit?usp=sharing
+
 
 # Contributors
   ROODRA PRATAP SINGH PARIHAR
