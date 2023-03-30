@@ -1,5 +1,8 @@
 # credit-card-default-prediction
 
+# Contributors
+  ROODRA PRATAP SINGH PARIHAR
+
 # web link for real time prediction of fraud/non-fraud customers
  
  https://credit-card-defaulter-prediction-service.onrender.com
@@ -17,8 +20,11 @@ https://docs.google.com/document/d/1gC_UJ2YchiQtsemO2ArzUTlBCiLhyfi9_lq7y5_ORDM/
 https://docs.google.com/document/d/167kbDDJKw4gXHzbumnr6mVNtaNK-QkujA_1gNwWRYjw/edit?usp=sharing
 
 
-# Contributors
-  ROODRA PRATAP SINGH PARIHAR
+# Architecture Design
+https://docs.google.com/document/d/1ZfD7LvjQwUEqq_2oI3NJYpFeCMtq3eAMvDMA2fuHfII/edit?usp=sharing
+
+
+
 
 
 # Problem Statement
