@@ -66,7 +66,7 @@ of credit card clients in Taiwan from April 2005 to September 2005.
 # Choosing the best model
 Over-sampling with XGBoost gave us best accuracy in the train and the test, with the better training and testing ROC score as well as pretty good sensitivity and specificity.
 
-# Cost Benefit AnalysiCOST 
+# Cost Benefit Analysis
 Even though XGBoost , Decision tree and Random forest taking much higher computational power in comparison to the logistic regression but we have to go with them.
 
 Because we are building the model for the financial case, Amount scam can be huge. so to get rid of these types of huge losses we have to build the accurate and precise model even though model take good amount of computational cost.
