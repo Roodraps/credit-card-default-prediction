@@ -17,11 +17,14 @@ https://docs.google.com/document/d/1gC_UJ2YchiQtsemO2ArzUTlBCiLhyfi9_lq7y5_ORDM/
 
 
 # Low Level Design Document
-https://docs.google.com/document/d/167kbDDJKw4gXHzbumnr6mVNtaNK-QkujA_1gNwWRYjw/edit?usp=sharing
+https://drive.google.com/file/d/1CqlDyCU_2YDwmfXEJVi-b3OJePa5xjys/view?usp=drive_link
 
 
-# Architecture Design
+# Architecture Design Documentation
 https://docs.google.com/document/d/1ZfD7LvjQwUEqq_2oI3NJYpFeCMtq3eAMvDMA2fuHfII/edit?usp=sharing
+
+# Wireframe Documentation
+https://drive.google.com/file/d/1Wamwqiqj2LZi_G58Yhemat-yWmXyZ6OR/view?usp=drive_link
 
 
 
