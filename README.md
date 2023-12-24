@@ -1,5 +1,15 @@
 # credit-card-default-prediction
 
+# Problem Statement
+Credit card fault prediction is the task of identifying and predicting the credit card customers who are likely to default on their payments or become delinquent. This is a crucial problem for credit card issuers, as it can help them reduce the risk of financial losses, improve customer retention, and optimize their credit policies.
+
+# Dataset link
+https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+
+# Dataset information
+This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements
+of credit card clients in Taiwan from April 2005 to September 2005.
+
 # Contributors
   ROODRA PRATAP SINGH PARIHAR
 
@@ -30,15 +40,7 @@ https://drive.google.com/file/d/1Wamwqiqj2LZi_G58Yhemat-yWmXyZ6OR/view?usp=drive
 
 
 
-# Problem Statement
-The goal of the project is to predict fraudulent credit card transations using machine learnings. it is pretty much important from the bank as well as customer point of view. Banks can not afford for clients' money to be stolen by scammers. Each fraud results in a loss for the bank since the bank is accountable for the fraudulent transactions.
 
-# Dataset link
-https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
-
-# Dataset information
-This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements
-of credit card clients in Taiwan from April 2005 to September 2005.
 
 # Dataset lookup view
  ![img1](https://user-images.githubusercontent.com/113835698/218663213-7d4ba745-b5b6-47e1-9fef-59f5eba21770.jpg)
